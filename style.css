@@ -320,6 +320,19 @@ select:focus {
     box-shadow: 0px 5px 10px 0px #E9E1EC;
     padding: 30px;
     margin: 5px;
+    transition: 1s;
+}
+
+.service-card:hover {
+    box-shadow: 55px 55px 10px -30px 
+    #E9E1EC;
+    border: 1px solid
+    #e9e1ec;
+    border-radius: 5px;
+}
+
+.service-card:hover h4{
+    color: #FF3946;
 }
 .service-img {
     height: 60px;
@@ -332,6 +345,7 @@ select:focus {
     #314584;
     padding: 15px 0;
     padding-top: 30px;
+    transition: 1s;
 }
 
 .service-card p {
@@ -459,6 +473,11 @@ select:focus {
     display: block;
     text-decoration: none;
     letter-spacing: 0.6px;
+    transition: 1s;
+}
+.see-more-btn a:hover {
+    color: 
+    #314584;
 }
 
 .blog-area {
@@ -601,6 +620,11 @@ select:focus {
     padding: 15px 40px;
     border-radius: 40px;
     margin: 50px 0;
+    transition: 1s;
+}
+
+.contact-submit input:hover {
+    background: #314584;
 }
 
 .contact-area {
@@ -630,6 +654,10 @@ select:focus {
     font-weight: 600;
     text-decoration: none;
     font-family: 'Work Sans', sans-serif;
+    transition: 1s;
+}
+.footer-nav ul li a:hover {
+    color: #FF3946;
 }
 
 .footer-text h6 {
@@ -669,6 +697,10 @@ select:focus {
     #fff;
     text-decoration: none;
     padding: 0 20px;
+    transition: 1s;
+}
+.social-nav ul li a:hover {
+    color: #FF3946;
 }
 
 .footer-text {
