@@ -1,0 +1,133 @@
+/* Extra large ≥1200px */
+@media only screen and (min-width: 1200px) { 
+  
+    
+}
+/* Large ≥992px */
+@media only screen and (max-width: 1199px)  { 
+    .right-btn {
+        display: none;
+    }
+    .col-nav {
+        float: right;
+        text-align: right;
+        width: auto;
+    }
+    .top-right-nav {
+        margin-left: 0;
+        margin-right: 50px;
+    }
+    .hero-area {
+        background-size: 50%;
+    }
+    .hero-text-box {
+        padding-bottom: 100px;
+    }
+    .top-right-nav {
+        display: none;
+    }
+    .hero-bg img {
+        width: 50%;
+    }
+    .about-bg img {
+        top: 80px;
+    }
+}
+
+/* Medium ≥768px */
+@media only screen and (max-width: 991px) { 
+ 
+    .right-na.col-nav {
+        display: none;
+    }
+    .mobile-menu {
+        display: inline-block;
+    }
+    .hero-bg img {
+        top: 56px;
+        width: 55%;
+    }
+    .blog-cards .col-md-6.col-lg-4.col-sm-6 {
+        margin: 0 auto;
+    }
+}
+/* Small ≥576px */
+@media only screen and (max-width: 767px) { 
+    .hero-text-box {
+        padding-top: 40px;
+    }
+    .hero-bg img {
+        width: 50%;
+        top: 172px;
+    }
+    .service-area {
+        padding-top: 70px;
+        padding-bottom: 130px;
+    }
+    .about-bg img {
+        top: -100px;
+        width: 45%;
+        left: 334px;
+    }
+    .about-area {
+        padding-bottom: 70px;
+    }
+    .portfolio-list {
+        margin-bottom: 70px;
+    }
+    .blog-area {
+        margin-bottom: 60px;
+    }
+    .blog-bg img {
+        bottom: -70px;
+        width: 70%;
+    }
+}
+/* Extra small <576px */
+@media only screen and (max-width: 575px) { 
+    .hero-bg img {
+        width: 55%;
+        top: 48px;
+        right: -70px;
+    }
+    .hero-text-box h2 {
+        font-size: 40px;
+    }
+    .hero-btns .red {
+        padding: 16px 25px;
+    }
+    .hero-btns .white {
+        padding: 15px 20px;
+    }
+    .service-text h3 span{
+        display: inline;
+    }
+    .service-area {
+        text-align: center;
+    }
+    .service-area {
+        padding-top: 50px;
+        padding-bottom: 110px;
+    }
+    .about-bg img {
+        width: 60%;
+        left: 230px;
+    }
+    .col-md-4.col-lg-4.col-sm-6 {
+        padding-right: 15px;
+    }
+    .portfolio-title h3 {
+        font-size: 35px;
+    }
+    .portfolio-title .arrows, .blog-title .arrows, .contact-title .arrows {
+        top: 0;
+    }
+    .footer-text h4 {
+        font-size: 35px;
+    }
+    .footer-nav ul li a {
+        padding: 15px 10px;
+    
+    }
+
+}
